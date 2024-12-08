@@ -1,0 +1,54 @@
+/* Estilo para la sección 'Quiénes Somos' */
+.QuienesSomos {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #008080; /* Verde característico */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.MisionVision {
+    font-size: 1.5rem;
+    color: #008080; /* Verde para destacar */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.QuienesSomos, .MisionVision {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Añadir estilo a los párrafos y títulos para una mejor presentación */
+.QuienesSomos, .Descripcion, .MisionVision {
+    padding: 0 20px;
+}
+
+/* Estilos para los párrafos */
+.Descripcion {
+    font-size: 1rem;
+    line-height: 1;
+    color: #555;
+    margin-bottom: 25px;
+    text-align: justify;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .QuienesSomos {
+        font-size: 1.8rem;
+    }
+
+    .Descripcion {
+        font-size: 1rem;
+    }
+
+    .MisionVision {
+        font-size: 1.3rem;
+    }
+}

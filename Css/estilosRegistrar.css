@@ -1,0 +1,86 @@
+/* Estilo para el formulario de registro de producto */
+.form-register {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-register h2 {
+    text-align: center;
+    color: #008080; /* El color verde sigue siendo coherente con el diseño */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-register label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-register input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.form-register input:focus {
+    border-color: #008080; /* Cambio de color en el borde cuando el input está enfocado */
+    background-color: #fff;
+    outline: none;
+}
+
+.form-register button {
+    width: 100%;
+    padding: 12px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-register button:hover {
+    background-color: #006f6f; /* Color más oscuro al pasar el cursor */
+}
+
+.form-register .error {
+    color: #e74c3c; /* Rojo para los mensajes de error */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-register .success {
+    color: #27ae60; /* Verde para los mensajes de éxito */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .form-register {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .form-register h2 {
+        font-size: 1.6rem;
+    }
+
+    .form-register input,
+    .form-register button {
+        font-size: 1rem;
+    }
+}
